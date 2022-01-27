@@ -21,6 +21,17 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
+## [0.10.0](https://www.github.com/ipfs/js-ipfs/compare/ipfs-core-types-v0.9.0...ipfs-core-types-v0.10.0) (2022-01-27)
+
+
+### ⚠ BREAKING CHANGES
+
+* peerstore methods are now all async, the repo is migrated to v12
+
+### Features
+
+* libp2p async peerstore ([#4018](https://www.github.com/ipfs/js-ipfs/issues/4018)) ([a6b201a](https://www.github.com/ipfs/js-ipfs/commit/a6b201af2c3697430ab0ebe002dd573d185f1ac0))
+
 ## [0.8.4](https://github.com/ipfs/js-ipfs/compare/ipfs-core-types@0.8.3...ipfs-core-types@0.8.4) (2021-11-24)
 
 **Note:** Version bump only for package ipfs-core-types
